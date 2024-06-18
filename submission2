@@ -1,0 +1,18 @@
+# Lab 2: DevOps Tool Exploration
+
+## Task 1: Set Up an IPFS with Docker
+
+## IPFS Status
+![IPFS Status](images/Screenshot_7.png)
+
+## Peers
+![Peers](images/Screenshot_8.png)
+
+* IPFS hash: `QmWMAkJLDvWfoFx3NYHdoMwdDXcZofH6EnWAZarkP1JZE3`
+* URL: https://ipfs.io/ipfs/QmWMAkJLDvWfoFx3NYHdoMwdDXcZofH6EnWAZarkP1JZE3
+
+## Task 2: Set Up IPFS Project on Fleek
+
+* IPFS hash: `bafybeifbozf4n6urn5n7lkccmpregr3iztx6v4zddsklgzikgsnhwjp65e`
+* URL: https://ipfs.io/ipfs/bafybeifbozf4n6urn5n7lkccmpregr3iztx6v4zddsklgzikgsnhwjp65e/
+* Domain: https://enough-plastic-scarce.on-fleek.app/
