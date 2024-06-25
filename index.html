@@ -1,16 +1,113 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <!-- You can modify it as you wish -->
-<html>
-<head>
+<html lang="en">
+  <head>
     <title>My Simple Website</title>
-</head>
-<body>
-    <h1>Welcome to My Simple Website</h1>
-    <p>This is the content of the folder.</p>
-    <ul>
-        <li>File 1</li>
-        <li>File 2</li>
-        <li>File 3</li>
-    </ul>
-</body>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      html {
+        font-size: 16px;
+      }
+
+      .center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .content {
+        height: 95%;
+        margin: 0 auto;
+        width: 80%;
+      }
+
+      .header {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+      }
+
+      .list {
+        list-style-type: none;
+        margin-bottom: 2rem;
+      }
+
+      .texts {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="center">
+      <div class="content">
+        <div class="header">
+          <h1>Welcome to My Simple Website</h1>
+        </div>
+        <p>This is the content of the folder.</p>
+
+        <ul class="list">
+          <a href="#"><li>File 1</li></a>
+          <a href="#"><li>File 2</li></a>
+          <a href="#"><li>File 3</li></a>
+        </ul>
+
+        <div class="texts">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            iaculis, libero non imperdiet tristique, metus tellus viverra mi, a
+            fringilla ligula velit eget nulla. Integer bibendum at purus quis
+            laoreet. Vestibulum vitae augue ut sem hendrerit malesuada quis at
+            metus. Morbi porta mauris quis risus vestibulum sodales. Suspendisse
+            condimentum dictum pharetra. Praesent interdum purus vitae lorem
+            dapibus bibendum. Proin consectetur maximus pharetra. Nullam mollis,
+            nibh vel laoreet ultrices, metus tellus rhoncus dui, ut interdum
+            neque sem id lorem. Praesent in vulputate velit. Aliquam vel
+            imperdiet est. Vestibulum ante ipsum primis in faucibus orci luctus
+            et ultrices posuere cubilia curae; Nunc pulvinar a nunc sed
+            vehicula.
+          </p>
+          <p>
+            Duis feugiat in nibh quis facilisis. Phasellus aliquet ex id
+            condimentum viverra. Orci varius natoque penatibus et magnis dis
+            parturient montes, nascetur ridiculus mus. Integer dignissim, sapien
+            a sollicitudin condimentum, mi tellus efficitur lacus, quis lobortis
+            dolor velit ut augue. Suspendisse fermentum lacinia quam. Mauris
+            ultrices fringilla luctus. In tincidunt leo nulla, eget eleifend leo
+            lobortis eu. Suspendisse porttitor hendrerit justo et mollis. Fusce
+            porta, sem id interdum aliquam, neque felis sagittis sem, ac
+            fermentum ipsum tellus sed lorem. Nam tellus ex, dapibus non gravida
+            elementum, interdum non elit. Pellentesque pulvinar urna eget erat
+            suscipit, a finibus orci hendrerit. Aenean efficitur volutpat
+            lacinia. Quisque luctus, leo vel lobortis faucibus, ex mi bibendum
+            augue, ut fringilla lectus ex at justo.
+          </p>
+          <p>
+            Proin lobortis nec magna faucibus accumsan. Vivamus sit amet quam a
+            nulla tristique condimentum vel in lacus. Sed non pulvinar arcu, ac
+            scelerisque purus. Quisque tempor, tellus eu aliquet consectetur,
+            nulla magna vulputate lorem, vitae tristique dui elit id tortor.
+            Vivamus euismod ultricies erat vitae interdum. Phasellus arcu purus,
+            rutrum eget hendrerit non, dignissim nec metus. Cras volutpat erat
+            nec sapien ullamcorper pulvinar. Ut nec nibh id mi efficitur
+            condimentum vel ac elit. Suspendisse viverra nunc id dui elementum
+            elementum. Ut dictum, neque id imperdiet laoreet, nisi libero tempus
+            neque, at porta erat ante quis neque. Donec tempor consectetur
+            metus, eu eleifend leo.
+          </p>
+        </div>
+      </div>
+      <footer>
+        Hosted on
+        <a target="_blank" rel="noopener noreferrer" href="http://fleek.xyz"
+          >fleek.xyz</a
+        >
+      </footer>
+    </div>
+  </body>
 </html>
